@@ -1,0 +1,8 @@
+- What happens if users choose “Cancel”?
+
+Since the "If...else" algorithm only checks if the user has either pressed "Yes" or not, that means pressing "Cancel" will have the same effect as pressing "No".
+
+
+- How to customize the options to users, e.g. only two options: “Yes” and “No”, OR “I do” and “I don’t” (Suggestion: Use Javadocs or using Eclipse/Netbean IDE help).  
+
+Change to using OptionDialog instead of ConfirmDialog, then customize the buttons from there.
